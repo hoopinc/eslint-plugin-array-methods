@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-array-methods",
+  "version": "1.0.0",
+  "description": "Rules to disallow use of certain Array methods",
+  "main": "dist/rule.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoopinc/eslint-plugin-array-methods.git"
+  },
+  "author": "daguej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoopinc/eslint-plugin-array-methods/issues"
+  },
+  "homepage": "https://github.com/hoopinc/eslint-plugin-array-methods#readme",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "eslint",
+    "eslint-plugin",
+    "eslint-rules",
+    "array"
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^20.5.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  }
+}
